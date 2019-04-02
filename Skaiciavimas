@@ -1,0 +1,40 @@
+# mood = input("Ar tu siandiena esi laimingas? ")
+#
+# if mood == "Taip":
+#     print("Esu siandiena laimingas")
+# elif mood == "Nervingas":
+#     print("Paimk 3 dienas atostogu")
+# elif mood == "Liudnas":
+#     Print("Paskambink draugui")
+# elif mood == "Viskas ok":
+#     print("Nuostabu")
+# elif mood == "Atsipalaidaves":
+#     print("Eik kavos")
+# else:
+#     print("Tu mires")
+
+# slaptas = 13
+#
+# guess = int(input("Issirink slapta skaiciu (nuo 1 iki 30): "))
+#
+# if guess == slaptas:
+#     print("Tu atspejai saunuolis ! Tai skaicius 22.")
+# else:
+#     print("Soriukas tavo spejimas nera teisingas... Slaptas skaicius ne " + str(guess))
+
+x = int(input("Iveskite reiksme x: "))
+
+y = int(input("Iveskite reiksme y: "))
+
+operation = input("Pasirinkite veiksma (+, -, *, /: ")
+
+if operation == "+":
+    print(x + y)
+elif operation == "-":
+    print(x - y)
+elif operation == "*":
+    print(x * y)
+elif operation == "/":
+    print(x / y)
+else:
+    print("Jus nepasirinkote jokio slaiciavimo veiksmo.")
